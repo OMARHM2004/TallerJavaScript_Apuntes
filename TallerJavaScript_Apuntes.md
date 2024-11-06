@@ -70,3 +70,38 @@ Pero si queremos sacar un bloque completo de codigo utilizamos ':
 ```
 
 ```
+
+```
+let Peso;
+let Estatura;
+
+Estatura=prompt("Ingrese su estatura");
+Peso=prompt("Ingrese su peso");
+let peso=parseInt(Peso);
+let estatura=parseInt(Estatura);
+
+console.log("Tu Indice de Masa Corporal es: " + (Peso / (Estatura * Estatura)));
+
+let iIMC=Peso / (Estatura * Estatura);
+if(iIMC <= 18.5){
+    console.log("Bajo Peso")
+}else{
+    iIMC >= 24.9
+    console.log("Peso Saludable")
+}
+
+if(iIMC >= 25.0){
+    console.log("Sobrepeso")
+}
+
+if(iIMC >= 30.0){
+    console.log("Obesidad")
+}
+```
+
+```
+let estudiante="Juan Perez";
+let edad=19;
+let isEstudiante=true;
+let calificacion=92.2;
+```
